@@ -15,18 +15,8 @@ const GoogleAuthButton = () => {
   }, []);
 
   const auth = () => {
-    // fetch("http://127.0.0.1:5000/auth/google", {
-    //   method: "GET",
-    //   credentials: "include", // Ensures cookies are sent
-    // })
-    // .then(response => response.json())
-    // .then(data => {
-    //   window.location.href = data.redirectUrl; // Redirect manually
-    // })
-    // .catch(err => console.error("Auth error", err));
-    
     // Redirect user to Google OAuth login
-    window.location.href = "http://127.0.0.1:5000/auth/google";
+    window.location.href = "http://127.0.0.1:5000/auth/google-signup";
   };
 
   return (
