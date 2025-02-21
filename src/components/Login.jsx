@@ -16,7 +16,7 @@ const GoogleAuthButton = () => {
 
   const auth = () => {
     // Redirect user to Google OAuth login
-    window.location.href = "http://127.0.0.1:5000/auth/google-signup";
+    window.location.href = "https://agate-card-backend-production.up.railway.app/auth/google-signup";
   };
 
   return (
